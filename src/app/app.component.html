@@ -1,0 +1,5 @@
+<img src="../assets/logo.png" class="d-flex m-auto img-fluid" alt="mp3dltube - logo">
+<app-input *ngIf="!downloaderService.downloader"></app-input>
+<app-downloader *ngIf="downloaderService.downloader"></app-downloader>
+<app-features></app-features>
+<app-footer></app-footer>
